@@ -1,0 +1,31 @@
+/* Global Selector */
+*{
+    padding: 0;
+    margin: 0;
+}
+ul{
+    background-color: aqua;
+    color: blue;
+    font-size: 30px;
+    width: 400px;
+    border-radius: 30px;
+    /* padding-left: 40px; */
+    /* solution 1 */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    /* column reverse(last ko aagadi leuxa) garda nii hunxa */
+    gap: 10px;
+}
+li{
+    margin: 10px;
+    background-color: antiquewhite;
+    list-style-position: inside; 
+    /*dot haru laii styling ma include garna*/
+    /* solution 2 */
+    padding: 10px;
+    border-radius: 10px;
+    color: blueviolet;
+    box-shadow: 3px 3px 10px 0px blue;
+    
+}
